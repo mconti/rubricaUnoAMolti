@@ -28,10 +28,10 @@ Questo schema è stato scritto usando la sintassi mermaid
 
 https://mermaid.js.org/syntax/entityRelationshipDiagram.html
 
-Lato persona i due trattini significano 1
+Lato persona i due trattini significano che un generico Contatto può essere associato ad una sola Persona
 
-Lato Contatto la cosidetta zampa di gallina indica "Molti" come a dire che una Persona ha molti contatti
+Lato Contatto la cosidetta zampa di gallina indica "Molti" come a dire che a una Persona posso associare molti contatti
 
-Il pallino va letto come "Zero" e questo significa che potrebbe anche non averne.
+Il pallino va letto come "Zero" e questo significa che una Persona potrebbe anche NON avere contatti
 
 Ricapitolando, un "Persona" può avere da zero a molti "Contatto".
